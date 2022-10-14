@@ -5,8 +5,52 @@
     }
     .image-block{
         width: 100%;
+        padding: 0;
     }
     .text-block{
         width: 100%;
+        padding: 0;
+    }
+
+    .list-text, .list-title {
+        font-size: 2.5em;
+    }
+
+    .list-title {
+
+    }
+
+    .portfolio {
+        flex-wrap: wrap;
+    }
+
+    .portfolio-title-block {
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 0;
+    }
+
+    .main-text, .more-text {
+        padding: 20px;
+    }
+
+    .posts {
+        flex-wrap: wrap;
+    }
+
+    .post-classic {
+        width: 100%;
     }
 }
+/*@media (max-width:600px){*/
+/*    .about{*/
+/*        flex-wrap: wrap;*/
+/*        flex-direction: column-reverse;*/
+/*    }*/
+/*    .image-block{*/
+/*        width: 100%;*/
+/*    }*/
+/*    .text-block{*/
+/*        width: 100%;*/
+/*    }*/
+/*}*/
