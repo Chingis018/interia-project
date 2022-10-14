@@ -96,8 +96,11 @@ input[type="range"]::-ms-fill-lower {
 .cat-item {
     padding: 15px;
     margin-bottom: 27px;
+    width: 32%;
 }
-
+.cat-item img{
+    width: 100%;
+}
 .cat-item-img {
     cursor: pointer;
     transition: all 0.3s ease-in-out;

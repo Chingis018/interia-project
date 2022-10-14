@@ -11,21 +11,31 @@
 p {
     color: rgba(0, 0, 0, 0.6);
 }
+.nd-image img{
+    width: 100%;
+}
 
 .image-block {
     display: flex;
     align-items: flex-start;
     padding-right: 75px;
+    width: 50%;
 }
-
+.image-block-left{
+    width: 30%;
+}
+.image-block-right{
+    width: 65%;
+}
 .st-image {
     display: block;
     margin-bottom: 41px;
     padding-right: 15px;
+    margin-top: 112px;
 }
 
 .st-image img {
-    margin-top: 112px;
+    width: 100%;
 }
 
 .text-block {
@@ -98,6 +108,9 @@ p {
     padding: 0 15px;
     margin-bottom: 41px;
 }
+.model-block img{
+    width: 100%;
+}
 
 .board {
     padding: 0 15px;
@@ -105,4 +118,5 @@ p {
 
 .board img {
     padding: 15px;
+    width: 100%;
 }
