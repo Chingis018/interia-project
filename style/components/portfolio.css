@@ -1,0 +1,63 @@
+.portfolio {
+    background-color: #fff;
+    margin: 50px 0;
+}
+
+.portfolio-title-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-text {
+    padding: 100px;
+    font-size: 46px;
+    line-height: 1.17391;   
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 600;
+    color: #2D2D2D;
+    letter-spacing: -.02em;
+}
+
+.more-text{
+    padding: 110px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: 0;
+    margin-bottom: 0;
+    
+
+}
+
+.posts {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.post-classic {
+    width: 492px;
+    margin-right: 32px;
+}
+
+.post-classic-figure {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+
+.post-classic-title {
+    font-size: 22px;
+    line-height: 1.28;
+    font-weight: 600;
+    color: #2D2D2D;
+    margin-top: 33px;
+}
+
+.post-classic-description {
+    color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: -15px;
+    margin-top: 9px;
+    margin-left: -5px;
+}

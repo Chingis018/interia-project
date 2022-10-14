@@ -1,0 +1,277 @@
+.price {
+    display: flex;
+    justify-content: center;
+    background-image: url("../../images/price/bg-price.png");
+    background-color: #2C2C2C;
+    height: 800px;
+    padding: 110px 0;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-center {
+    display: flex;
+    justify-content: center;
+}
+
+.align-items-center {
+     align-items: center;
+}
+
+.container {
+    max-width: 1200px;
+    min-width: 700px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 15px 15px 0 15px;
+}
+
+.price-header {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.test {
+    width: 350px;
+}
+
+.price-header h2{
+    font-size: 46px;
+    line-height: 1.17;
+    font-weight: 600;
+}
+
+.pre-title {
+    color: #FFDC25;
+    font-size: 22px;
+    margin-top: 12px;
+}
+
+.range-block {
+
+}
+
+.range {
+    width: 75%;
+    margin: 51px 0;
+    height: 31px;
+    background-color: #3B3B3B;
+    box-shadow: inset 2px 2px 4px rgb(0 0 0 / 25%);
+    border-radius: 10em;
+}
+
+.values {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -35px;
+    padding: 0 25px;
+}
+
+input[type="range"]::-ms-fill-lower {
+    background-color: #FFDC25 !important;
+}
+
+.pricing-box {
+    display: inline-block;
+    padding: 10px 32px;
+    text-align: center;
+    font-size: 46px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #3B3B3B;
+    border-radius: 10em;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
+    border: none;
+    margin: 21px auto;
+}
+
+.catalogue {
+    display: flex;
+    justify-content: center;
+}
+
+.cat-item {
+    padding: 15px;
+    margin-bottom: 27px;
+}
+
+.cat-item-img {
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.cat-item-img:hover {
+    transform: scale(1.05);
+}
+
+.benefits {
+    margin-bottom: 37px;
+}
+
+.benefit-title {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.benefit-list {
+    color: #ffffff;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align-last: left;
+    margin-bottom: -17px;
+}
+
+.benefit-list li {
+    padding-left: 14px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.review {
+    padding: 62px 0 70px;
+}
+
+.review-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-text {
+    width: 480px;
+    margin-left: 48px;
+    text-align: left;
+}
+
+.card-text p {
+    color: #000000;
+    font-weight: 400;
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    overflow: hidden;
+    box-shadow: 7px 7px 10px rgb(0 0 0 / 25%);
+    border-radius: 30px;
+}
+
+.avatar img {
+    width: 100px;
+    height: 100px;
+}
+
+.desc {
+    margin-left: 43px;
+}
+
+.desc > h4 {
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 0;
+}
+
+.desc > p {
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 8px;
+    padding-left: 7px;
+}
+
+.card-body {
+    position: relative;
+    color: #000000;
+    font-size: 22px;
+    font-style: italic;
+    letter-spacing: 0;
+    padding-left: 2px;
+    line-height: 1.6;
+    margin-top: 42px;
+}
+
+.card-body::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 4px;
+    top: 9px;
+    left: -43px;
+    bottom: 5px;
+    background-color: #000000;
+}
+
+.desc-subtitle {
+    position: relative;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-left: 7px;
+    margin-top: 8px;
+}
+
+.desc-subtitle::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -3px;
+    left: 0;
+    bottom: -1px;
+    width: 54px;
+    background-color: #FFDC25;
+    z-index: -1;
+}
+
+
+
+
+
+
+
+.brands {
+    width: 398px;
+    margin-right: 0;
+    background-color: #ffffff;
+    box-shadow: 20px 20px 20px rgb(0 0 0 / 15%);
+    padding: 50px 30px 45px 55px;
+    margin-left: 30px;
+    margin-bottom: 47px;
+}
+
+.brand-title {
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #000000;
+    letter-spacing: -.015em;
+}
+
+.brand-list > * {
+    margin-bottom: 55px
+}
+
+.brand-list {
+    margin-top: 36px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: -55px;
+}
+
+.brand-list li {
+    flex-basis: 50%;
+    width: 50%;
+    max-width: 50%;
+    min-width: 150px;
+}
+
+
+

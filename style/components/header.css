@@ -1,0 +1,30 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 15px ;
+    background-color: #2c2c2c;
+}
+.head-menu a{
+    color: #42464f;
+    /* font-size: ; */
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-right: 25px;
+}
+.head-contact a{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+
+.active {
+    color: #ffff !important;
+}
+
+.head-menu a:hover{
+    color: #ffff;
+    transition: .3s;
+}
